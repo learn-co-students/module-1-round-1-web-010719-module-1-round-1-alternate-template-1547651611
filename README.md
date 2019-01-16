@@ -59,3 +59,9 @@ A magazine is initialized with a name as a string and a category as a string. Th
   + Given a string of magazine's name, this method returns the first magazine object that matches
 + `Magazine#article_titles`
   + Returns an array of the titles of all articles written for that magazine
++ `Magazine#contributors`
+  + Returns all of the authors who have written for this magazine
++ `Magazine#most_prolific_author`
+  + Returns the author who has written the most articles for this magazine
++ `Magazine.most_popular_category` 
+  + Returns an array of most popular categories for magazines in order from _Greatest to Least_ 
