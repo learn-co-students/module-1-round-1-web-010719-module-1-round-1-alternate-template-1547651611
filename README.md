@@ -37,7 +37,7 @@ An author is initialized with a name as a string. A name **cannot** be changed a
 
 
 ### Article
-An article is initialized with an author as an Author object and a magazine as a Magazine object. An article **cannot** change its author or magazine after it is has been initialized. 
+An article is initialized with an author as an Author object and a magazine as a Magazine object. An article **cannot** change its author or magazine after it is has been initialized.
 
 + `Article.all`
   + Returns an array of all Article instances
@@ -63,5 +63,5 @@ A magazine is initialized with a name as a string and a category as a string. Th
   + Returns all of the authors who have written for this magazine
 + `Magazine#most_prolific_author`
   + Returns the author who has written the most articles for this magazine
-+ `Magazine.most_popular_category` 
++ `Magazine.most_popular_category`
   + Returns an array of most popular categories for magazines in order from _Greatest to Least_ 
